@@ -1,7 +1,7 @@
 # ApiGateway-study
 study for micro service - API gateway 
 
-
+```
   GatewayFilter filter = new OrderedGatewayFilter((exchange, chain) -> {
       ServerHttpRequest request = exchange.getRequest();
       ServerHttpResponse response = exchange.getResponse();
@@ -17,7 +17,7 @@ study for micro service - API gateway
           }
       }));
   }, Ordered.HIGHEST_PRECEDENCE);
-  
+  ```
   
 Ordered.HIGHEST_PRECEDENCE 조건에 따라 실행되는 필터의 우선순위가 달라짐
 
