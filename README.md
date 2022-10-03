@@ -26,6 +26,9 @@ LOWEST_PRECEDENCE 일 경우 아래의 순서대로 실행 됨
 2. Custom filter
 3. Logging filter
 
+RabbitMQ 관련 내용  
+https://primayy.tistory.com/74  
+![img.png](img.png)  
 RabbitMQ를 이용하면 application.yml MSA 서비스들을 일괄 리프레시가능  
 POST http://localhost:8000/actuator/busrefresh
 
