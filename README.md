@@ -26,13 +26,13 @@ LOWEST_PRECEDENCE 일 경우 아래의 순서대로 실행 됨
 2. Custom filter
 3. Logging filter
 
-RabbitMQ를 이용하면 application.yml MSA 서비스들을 일괄 리프레시가능
+RabbitMQ를 이용하면 application.yml MSA 서비스들을 일괄 리프레시가능  
 POST http://localhost:8000/actuator/busrefresh
 
-특정 MSA application.yml만 리프레시
+특정 MSA application.yml만 리프레시  
 POST http://localhost:8000/actuator/refresh
 
-key-tool 활용
-설정 보안에 사용하는 암호화 키 만들기
-POST http://localhost:8888/encrypt
+key-tool 활용  
+설정 보안에 사용하는 암호화 키 만들기  
+POST http://localhost:8888/encrypt  
 POST http://localhost:8888/encrypt
