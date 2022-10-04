@@ -38,4 +38,4 @@ POST http://localhost:8000/actuator/refresh
 key-tool 활용  
 설정 보안에 사용하는 암호화 키 만들기  
 POST http://localhost:8888/encrypt  
-POST http://localhost:8888/encrypt
+POST http://localhost:8888/decrypt
